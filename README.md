@@ -4,7 +4,6 @@
 | | |
 | --- | --- |
 | **Purpose** | Build an isolated home lab in Oracle VirtualBox with a Kali Linux attack machine, a vulnerable web application (DVWA), and a Splunk server that collects the web server's logs. |
-| **Last updated** | September 30, 2026 |
 | **Versions covered** | VirtualBox 7.2.20 · Kali Linux 2026.2 · Ubuntu Server 24.04 LTS · Splunk Enterprise 10.x · DVWA (current `master` branch) |
 | **Host requirement** | 64-bit Windows or Linux PC with 16 GB RAM (32 GB recommended), 150 GB free disk, and hardware virtualization (Intel VT-x or AMD-V) enabled in the BIOS/UEFI |
 
