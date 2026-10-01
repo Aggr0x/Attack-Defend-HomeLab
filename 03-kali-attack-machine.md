@@ -14,15 +14,13 @@ I highly recommend downloading the Installer Image for this set up as it's easy 
 
 Go to the Virtualbox download and download the Zip file
 
-<img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/88d109d9-3d3e-4724-9ad8-b5241c48e1d6" />
+<img width="331" height="354" alt="image" src="https://github.com/user-attachments/assets/35fe19a2-dd3f-4730-a24a-033442f14f92" />
 
 
-Under **Virtual Machines**, select **VirtualBox** (64-bit) and download the `.7z` file, for example `kali-linux-2026.2-virtualbox-amd64.7z`.
-4. Copy the **SHA256** checksum shown next to the download link.
+## Verify the download
 
-## 2. Verify the download
-
-The computed hash must exactly match the SHA256 value on the Kali site. If it does not match, delete the file and download it again.
+Its good practice to check the hash of the image you're downloading matches the SHA256 value on the Kali site. If it does not match, delete the file and download it again.
+shasum -a 256 <path-to-kali-image>
 
 **Windows (PowerShell):**
 
