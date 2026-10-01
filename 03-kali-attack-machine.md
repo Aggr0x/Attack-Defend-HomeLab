@@ -1,6 +1,6 @@
-# Step 3: Create the Kali Linux Attack Machine
+Install the Attack Machine- Kali Linux
 
-**Goal:** Import the latest Kali Linux prebuilt VirtualBox image, connect it to `LabNet`, and fully update it.
+For anyone unfamiliar, ([Kali Linux] https://www.kali.org/) is an open-source Operating System for digital forensics and ethical hacking. It's developed, funded, and maintained by ([Offsec]https://www.offsec.com/). It's very versatile and easy to set up, coming preloaded with almost every tool you need for your tasks, which in this case will be ethical hacking. I highly recommend taking any of OffSec's training courses as they're, although challenging, extremely educational and their certifications, such as the OCP, are renowned throughout the industry. 
 
 As of September 30, 2026, the latest Kali release is **Kali Linux 2026.2** (released June 29, 2026). Kali is a rolling distribution, so the update step at the end brings the VM fully current even after a newer image is published. Check the [Kali release history](https://www.kali.org/releases/) before downloading; if a newer version is listed, use it and substitute its version number below.
 
