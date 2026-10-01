@@ -7,11 +7,11 @@ As of September 30, 2026, the latest Kali release is **Kali Linux 2026.2** (rele
 ## Download the official image
 
 Go to the official download page: **<https://www.kali.org/get-kali/#kali-virtual-machines>**.
-   I highly recommend downloading the Installer Image for this set up as it's easy and supports Snapshots.
-   <img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/115ea605-681a-4a87-946a-dae6f13ccde6" />
+I highly recommend downloading the Installer Image for this set up as it's easy and supports Snapshots.
+<img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/115ea605-681a-4a87-946a-dae6f13ccde6" />
 
-   Go to the Virtualbox download and download the Zip file
-   <img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/88d109d9-3d3e-4724-9ad8-b5241c48e1d6" />
+Go to the Virtualbox download and download the Zip file
+<img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/88d109d9-3d3e-4724-9ad8-b5241c48e1d6" />
 
 
 Under **Virtual Machines**, select **VirtualBox** (64-bit) and download the `.7z` file, for example `kali-linux-2026.2-virtualbox-amd64.7z`.
