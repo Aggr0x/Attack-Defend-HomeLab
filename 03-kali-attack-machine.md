@@ -1,14 +1,21 @@
-Install the Attack Machine- Kali Linux
+## Install the Attack Machine- Kali Linux
 
 For anyone unfamiliar, [Kali Linux](https://www.kali.org/) is an open-source Operating System for digital forensics and ethical hacking. It's developed, funded, and maintained by [Offsec](https://www.offsec.com/). It's very versatile and easy to set up, coming preloaded with almost every tool you need for your tasks, which in this case will be ethical hacking. I highly recommend taking any of OffSec's training courses as they're, although challenging, extremely educational and their certifications, such as the OCP, are renowned throughout the industry. 
 
 As of September 30, 2026, the latest Kali release is **Kali Linux 2026.2** (released June 29, 2026). Kali is a rolling distribution, so the update step at the end brings the VM fully current even after a newer image is published. Check the [Kali release history](https://www.kali.org/releases/) before downloading; if a newer version is listed, use it and substitute its version number below.
 
-## 1. Download the official image
+## Download the official image
 
-1. Go to the official download page: **<https://www.kali.org/get-kali/#kali-virtual-machines>**. Download Kali only from `kali.org`; third-party mirrors of attack tools are a common malware source.
-2. Under **Virtual Machines**, select **VirtualBox** (64-bit) and download the `.7z` file, for example `kali-linux-2026.2-virtualbox-amd64.7z`.
-3. Copy the **SHA256** checksum shown next to the download link.
+Go to the official download page: **<https://www.kali.org/get-kali/#kali-virtual-machines>**.
+   I highly recommend downloading the Installer Image for this set up as it's easy and supports Snapshots.
+   <img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/115ea605-681a-4a87-946a-dae6f13ccde6" />
+
+   Go to the Virtualbox download and download the Zip file
+   <img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/88d109d9-3d3e-4724-9ad8-b5241c48e1d6" />
+
+
+Under **Virtual Machines**, select **VirtualBox** (64-bit) and download the `.7z` file, for example `kali-linux-2026.2-virtualbox-amd64.7z`.
+4. Copy the **SHA256** checksum shown next to the download link.
 
 ## 2. Verify the download
 
