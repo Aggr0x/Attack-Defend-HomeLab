@@ -34,35 +34,30 @@ Get-FileHash .\kali-linux-2026.2-virtualbox-amd64.7z -Algorithm SHA256
 sha256sum kali-linux-2026.2-virtualbox-amd64.7z
 ```
 
-## 3. Extract the image
+## Extract the image
 
-**Windows:** Install [7-Zip](https://www.7-zip.org/), right-click the `.7z` file, and choose **7-Zip > Extract Here**.
+Extraction produces a folder containing a `.vbox` file (the VM definition) and a `.vdi` file (the virtual disk). VirtualBox runs the VM from wherever the files sit.
 
-**Linux:**
+## Import into VirtualBox
 
-```bash
-sudo apt install -y p7zip-full
-7z x kali-linux-2026.2-virtualbox-amd64.7z
-```
+1. In VirtualBox, select **Open** (Ctrl+A).
+<img width="792" height="121" alt="image" src="https://github.com/user-attachments/assets/4f552243-647a-4196-8b1a-83d59fcdd7d4" />
 
-Extraction produces a folder containing a `.vbox` file (the VM definition) and a `.vdi` file (the virtual disk). Move the folder to a permanent location first; VirtualBox runs the VM from wherever the files sit.
-
-## 4. Import into VirtualBox
-
-1. In VirtualBox, select **Machine > Add** (Ctrl+A).
 2. Browse to the extracted folder and open the `.vbox` file.
-3. Select the new VM, open **Settings**, and set:
+<img width="439" height="103" alt="image" src="https://github.com/user-attachments/assets/6823fd3b-7383-4024-ad40-d34e853f6111" />
+
+4. Select the new VM, open **Settings** and make sure the minimum resource requirements are met. The disk image automatically sets these once you open it in Virtualbox, however you can now rename your host or make adjustments as needed. 4 GB of RAM and 2 CPU cores are more than enough for what we are doing, however feel free to set more resources as you see fit.
 
 | Setting | Location | Value |
 | --- | --- | --- |
-| Name | General > Basic | `kali` |
+| Name | General > Basic | `Lab-Attack` |
 | Base Memory | System > Motherboard | 4096 MB |
 | Processors | System > Processor | 2 |
 | Network | Network > Adapter 1 | Attached to **NAT Network**, Name **LabNet** |
 
 4. Click **OK**, then **Start**.
 
-## 5. First login and update
+## First login and update
 
 1. Log in with the default credentials: **username `kali`, password `kali`**.
 2. Open a terminal and change the password immediately:
