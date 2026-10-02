@@ -8,7 +8,7 @@ As of September 30, 2026, the latest Kali release is **Kali Linux 2026.2** (rele
 
 Go to the official download page: **<https://www.kali.org/get-kali/#kali-virtual-machines>**.
 
-I highly recommend downloading the Installer Image for this set up as it's easy and supports Snapshots.
+I highly recommend downloading the 'Virtual Machines' Image for this set up as it's easy and supports Snapshots.
 
 <img width="478" height="404" alt="image" src="https://github.com/user-attachments/assets/115ea605-681a-4a87-946a-dae6f13ccde6" />
 
@@ -16,8 +16,7 @@ Go to the Virtualbox download and download the Zip file
 
 <img width="331" height="354" alt="image" src="https://github.com/user-attachments/assets/35fe19a2-dd3f-4730-a24a-033442f14f92" />
 
-
-## Verify the download
+**If you are operating on Linux like myself, you may have some unusual issues running the Virtual Machine Image, but your experience will vary with your chosen Desktop and OS. I recommend going with the installer .iso.
 
 Its good practice to check the hash of the image you're downloading matches the SHA256 value on the Kali site. If it does not match, delete the file and download it again.
 shasum -a 256 <path-to-kali-image>
