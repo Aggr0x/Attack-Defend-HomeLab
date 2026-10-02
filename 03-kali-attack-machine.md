@@ -43,6 +43,7 @@ Extraction produces a folder containing a `.vbox` file (the VM definition) and a
 In VirtualBox, select **Open** (Ctrl+A).
 <img width="792" height="121" alt="image" src="https://github.com/user-attachments/assets/4f552243-647a-4196-8b1a-83d59fcdd7d4" />
 
+
 Browse to the extracted folder and open the `.vbox` file.
 <img width="439" height="103" alt="image" src="https://github.com/user-attachments/assets/6823fd3b-7383-4024-ad40-d34e853f6111" />
 
