@@ -20,7 +20,7 @@ Go to the Virtualbox download and download the Zip file
 
 
 
-Its good practice to check the hash of the image you're downloading matches the SHA256 value on the Kali site. If it does not match, delete the file and download it again.
+Its also good practice to check the hash of the image you're downloading matches the SHA256 value on the Kali site. If it does not match, delete the file and download it again.
 
 **Windows (PowerShell):**
 
