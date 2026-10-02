@@ -16,7 +16,7 @@ Go to the Virtualbox download and download the Zip file
 
 <img width="331" height="354" alt="image" src="https://github.com/user-attachments/assets/35fe19a2-dd3f-4730-a24a-033442f14f92" />
 
-**If you are operating on Linux like myself, you may have some unusual issues running the Virtual Machine Image, but your experience will vary with your chosen Desktop and OS. I recommend going with the installer .iso.
+**If you are operating on Linux like myself, you may have some unusual issues running the Virtual Machine Image, but your experience will vary with your chosen Desktop and OS. I recommend going with the installer .iso(https://www.kali.org/docs/installation/hard-disk-install/)
 
 
 
