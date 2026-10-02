@@ -18,8 +18,9 @@ Go to the Virtualbox download and download the Zip file
 
 **If you are operating on Linux like myself, you may have some unusual issues running the Virtual Machine Image, but your experience will vary with your chosen Desktop and OS. I recommend going with the installer .iso.
 
+
+
 Its good practice to check the hash of the image you're downloading matches the SHA256 value on the Kali site. If it does not match, delete the file and download it again.
-shasum -a 256 <path-to-kali-image>
 
 **Windows (PowerShell):**
 
