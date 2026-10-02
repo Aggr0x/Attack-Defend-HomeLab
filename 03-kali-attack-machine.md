@@ -40,13 +40,13 @@ Extraction produces a folder containing a `.vbox` file (the VM definition) and a
 
 ## Import into VirtualBox
 
-1. In VirtualBox, select **Open** (Ctrl+A).
+In VirtualBox, select **Open** (Ctrl+A).
 <img width="792" height="121" alt="image" src="https://github.com/user-attachments/assets/4f552243-647a-4196-8b1a-83d59fcdd7d4" />
 
-2. Browse to the extracted folder and open the `.vbox` file.
+Browse to the extracted folder and open the `.vbox` file.
 <img width="439" height="103" alt="image" src="https://github.com/user-attachments/assets/6823fd3b-7383-4024-ad40-d34e853f6111" />
 
-4. Select the new VM, open **Settings** and make sure the minimum resource requirements are met. The disk image automatically sets these once you open it in Virtualbox, however you can now rename your host or make adjustments as needed. 4 GB of RAM and 2 CPU cores are more than enough for what we are doing, however feel free to set more resources as you see fit.
+Select the new VM, open **Settings** and make sure the minimum resource requirements are met. The disk image automatically sets these once you open it in Virtualbox, however you can now rename your host or make adjustments as needed. 4 GB of RAM and 2 CPU cores are more than enough for what we are doing, however feel free to set more resources as you see fit.
 
 | Setting | Location | Value |
 | --- | --- | --- |
@@ -55,18 +55,19 @@ Extraction produces a folder containing a `.vbox` file (the VM definition) and a
 | Processors | System > Processor | 2 |
 | Network | Network > Adapter 1 | Attached to **NAT Network**, Name **LabNet** |
 
-4. Click **OK**, then **Start**.
+Click **OK**, then **Start**.
 
 ## First login and update
+***If you are utilizing the vbox image, you do not need to worry about the installer. If you are utilizing the .iso file, you will run through the set up for Kali Linux. I utilize the iso image and created a network domain of home.lab during setup.
 
-1. Log in with the default credentials: **username `kali`, password `kali`**.
-2. Open a terminal and change the password immediately:
+Log in with the default credentials: **username `kali`, password `kali`**.
+Open a terminal and change the default password.
 
    ```bash
    passwd
    ```
 
-3. Update every package to the current rolling release, then reboot:
+Update every package to the current rolling release, then reboot:
 
    ```bash
    sudo apt update
@@ -85,7 +86,7 @@ ping -c 3 10.10.10.1            # the LabNet gateway answers
 ping -c 3 kali.org              # internet access works
 ```
 
-When all four checks pass, shut the VM down and take a snapshot: select the VM, click the menu icon next to it > **Snapshots > Take**, and name it `clean-install`.
+When all four checks pass, shut the VM down and take a snapshot: select the VM, click the menu icon next to it > **Snapshots > Take**, and name it `clean-install`. It's always prudent to create a snapshot at the start of a lab install so you have a clean slate to revert to if needed.
 
 ## Sources
 
