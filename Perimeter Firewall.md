@@ -30,9 +30,15 @@ You should now have the following file
 <img width="288" height="55" alt="image" src="https://github.com/user-attachments/assets/d47b00ee-2244-4bf8-9a7a-23d5ca74b1f1" />
 
 # Install
-Click Create
-
+Create a new Virtual Machine
+Fortigate uses FortiOS which is a modified and hardened version of the Linux kernel. The distribution can be set to Linux and the OS can be set to Other Linux
 <img width="910" height="749" alt="labshot 1" src="https://github.com/user-attachments/assets/3020d95e-9756-4a0d-8908-6b099b35a8b8" />
 
-
+Minimum resource requirements
 <img width="754" height="139" alt="image" src="https://github.com/user-attachments/assets/d8461439-a992-489b-b12f-e2e90dec9eaf" />
+
+Click 'Use an existing virtual hard disk'
+<img width="755" height="423" alt="image" src="https://github.com/user-attachments/assets/53a636f5-7700-4f9e-99d9-d76a797e6df6" />
+
+If you do not see your vdi, you will need to add it by clicking on the folder icon. You will then add it on the following screen. Once it's added, it will be visible, but not Attached.
+<img width="464" height="241" alt="image" src="https://github.com/user-attachments/assets/0617ef20-7f78-42b4-95b4-31ee7646120d" />
