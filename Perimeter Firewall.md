@@ -29,5 +29,8 @@ You should now have the following file
 
 <img width="288" height="55" alt="image" src="https://github.com/user-attachments/assets/d47b00ee-2244-4bf8-9a7a-23d5ca74b1f1" />
 
+# Install
+Click Create
 
+<img width="910" height="749" alt="labshot 1" src="https://github.com/user-attachments/assets/3020d95e-9756-4a0d-8908-6b099b35a8b8" />
 
