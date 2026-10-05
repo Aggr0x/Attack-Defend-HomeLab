@@ -16,6 +16,7 @@ Unzip the folder into your desired location. You'll find the .qcow2 file inside.
 
 <img width="293" height="69" alt="image" src="https://github.com/user-attachments/assets/f0325ebc-3db0-4a5a-9342-707d1cbd7de5" />
 
-the .qcow2 format is not supported by Virtualbox so we'll need to convert it to .vdi.
+the .qcow2 format is not supported by Virtualbox so we'll need to convert it to .vdi using QEMU. If you don't already have it, QEMU has instructions on their [site](https://www.qemu.org/download/)
 
-## Windows
+Go to the directory you unzipped your file and run this command in the CLI
+ qemu-img convert -p -O vdi fortios.qcow2 fortios.vdi 
