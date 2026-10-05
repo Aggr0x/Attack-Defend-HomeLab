@@ -1,4 +1,4 @@
-# Perimeter Firewall Setup
+# Perimeter Firewall
 This section will cover setting up a perimeter firewall. We'll be using a Next Generation Firewall (NGFW) as it inspects traffic by application, user, and content rather than only by port and protocol. We can use this to detect threats, conduct Deep Packet Inspection (DPI), and gain more visibility the same way an enterprise environment would.
 
 # Fortigate
