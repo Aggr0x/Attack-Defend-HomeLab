@@ -41,4 +41,5 @@ Click 'Use an existing virtual hard disk'
 <img width="755" height="423" alt="image" src="https://github.com/user-attachments/assets/53a636f5-7700-4f9e-99d9-d76a797e6df6" />
 
 If you do not see your vdi, you will need to add it by clicking on the folder icon. You will then add it on the following screen. Once it's added, it will be visible, but not Attached.
+
 <img width="464" height="241" alt="image" src="https://github.com/user-attachments/assets/0617ef20-7f78-42b4-95b4-31ee7646120d" />
